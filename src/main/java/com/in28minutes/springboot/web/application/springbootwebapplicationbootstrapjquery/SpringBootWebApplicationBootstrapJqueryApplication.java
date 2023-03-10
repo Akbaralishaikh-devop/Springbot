@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @SpringBootApplication
-public class SpringBootWebApplicationBootstrapJqueryApplication {
+public class SpringBootWebApplicationBootstrapJqueryApplication extends SpringBootServletInitializer {
 	
 	@GetMapping("/AWS")
 	public String HelloAWS()
